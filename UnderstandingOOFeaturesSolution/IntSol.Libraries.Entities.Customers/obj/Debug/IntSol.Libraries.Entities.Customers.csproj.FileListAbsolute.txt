@@ -1,6 +1,5 @@
 C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Entities.Customers\bin\Debug\IntSol.Libraries.Entities.Customers.dll
 C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Entities.Customers\bin\Debug\IntSol.Libraries.Entities.Customers.pdb
-C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Entities.Customers\obj\Debug\IntSol.Libraries.Entities.Customers.csprojAssemblyReference.cache
 C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Entities.Customers\obj\Debug\IntSol.Libraries.Entities.Customers.csproj.CoreCompileInputs.cache
 C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Entities.Customers\obj\Debug\IntSol.Libraries.Entities.Customers.dll
 C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Entities.Customers\obj\Debug\IntSol.Libraries.Entities.Customers.pdb

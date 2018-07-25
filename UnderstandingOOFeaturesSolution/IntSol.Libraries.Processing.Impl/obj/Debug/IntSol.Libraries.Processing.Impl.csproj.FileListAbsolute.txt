@@ -1,0 +1,15 @@
+C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Processing.Impl\bin\Debug\IntSol.Libraries.Processing.Impl.dll
+C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Processing.Impl\bin\Debug\IntSol.Libraries.Processing.Impl.pdb
+C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Processing.Impl\bin\Debug\IntSol.Libraries.Entities.Customers.dll
+C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Processing.Impl\bin\Debug\IntSol.Libraries.Entities.LoanRequests.dll
+C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Processing.Impl\bin\Debug\IntSol.Libraries.Processing.External.Interfaces.dll
+C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Processing.Impl\bin\Debug\IntSol.Libraries.Processing.Interfaces.dll
+C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Processing.Impl\bin\Debug\IntSol.Libraries.Entities.Customers.pdb
+C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Processing.Impl\bin\Debug\IntSol.Libraries.Entities.LoanRequests.pdb
+C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Processing.Impl\bin\Debug\IntSol.Libraries.Processing.External.Interfaces.pdb
+C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Processing.Impl\bin\Debug\IntSol.Libraries.Processing.Interfaces.pdb
+C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Processing.Impl\obj\Debug\IntSol.Libraries.Processing.Impl.csprojAssemblyReference.cache
+C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Processing.Impl\obj\Debug\IntSol.Libraries.Processing.Impl.csproj.CoreCompileInputs.cache
+C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Processing.Impl\obj\Debug\IntSol.Libraries.Processing.Impl.csproj.CopyComplete
+C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Processing.Impl\obj\Debug\IntSol.Libraries.Processing.Impl.dll
+C:\00 WPF\Demonstrations\UnderstandingOOFeaturesSolution\IntSol.Libraries.Processing.Impl\obj\Debug\IntSol.Libraries.Processing.Impl.pdb
