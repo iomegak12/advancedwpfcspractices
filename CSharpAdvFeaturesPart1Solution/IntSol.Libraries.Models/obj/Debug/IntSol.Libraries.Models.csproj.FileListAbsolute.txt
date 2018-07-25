@@ -1,0 +1,5 @@
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Models\bin\Debug\IntSol.Libraries.Models.dll
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Models\bin\Debug\IntSol.Libraries.Models.pdb
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Models\obj\Debug\IntSol.Libraries.Models.csproj.CoreCompileInputs.cache
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Models\obj\Debug\IntSol.Libraries.Models.dll
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Models\obj\Debug\IntSol.Libraries.Models.pdb

@@ -1,0 +1,9 @@
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Models.Extensibility\bin\Debug\IntSol.Libraries.Models.Extensibility.dll
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Models.Extensibility\bin\Debug\IntSol.Libraries.Models.Extensibility.pdb
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Models.Extensibility\bin\Debug\IntSol.Libraries.Models.dll
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Models.Extensibility\bin\Debug\IntSol.Libraries.Models.pdb
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Models.Extensibility\obj\Debug\IntSol.Libraries.Models.Extensibility.csprojAssemblyReference.cache
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Models.Extensibility\obj\Debug\IntSol.Libraries.Models.Extensibility.csproj.CoreCompileInputs.cache
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Models.Extensibility\obj\Debug\IntSol.Libraries.Models.Extensibility.csproj.CopyComplete
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Models.Extensibility\obj\Debug\IntSol.Libraries.Models.Extensibility.dll
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Models.Extensibility\obj\Debug\IntSol.Libraries.Models.Extensibility.pdb

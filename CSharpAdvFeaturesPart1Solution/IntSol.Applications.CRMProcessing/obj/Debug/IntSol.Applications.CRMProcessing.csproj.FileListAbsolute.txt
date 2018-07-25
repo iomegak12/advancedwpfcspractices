@@ -1,0 +1,16 @@
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Applications.CRMProcessing\bin\Debug\IntSol.Applications.CRMProcessing.exe.config
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Applications.CRMProcessing\bin\Debug\IntSol.Applications.CRMProcessing.exe
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Applications.CRMProcessing\bin\Debug\IntSol.Applications.CRMProcessing.pdb
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Applications.CRMProcessing\bin\Debug\IntSol.Libraries.Models.dll
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Applications.CRMProcessing\bin\Debug\IntSol.Libraries.Models.Extensibility.dll
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Applications.CRMProcessing\bin\Debug\IntSol.Libraries.Services.Impl.dll
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Applications.CRMProcessing\bin\Debug\IntSol.Libraries.Services.Interfaces.dll
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Applications.CRMProcessing\bin\Debug\IntSol.Libraries.Models.Extensibility.pdb
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Applications.CRMProcessing\bin\Debug\IntSol.Libraries.Models.pdb
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Applications.CRMProcessing\bin\Debug\IntSol.Libraries.Services.Impl.pdb
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Applications.CRMProcessing\bin\Debug\IntSol.Libraries.Services.Interfaces.pdb
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Applications.CRMProcessing\obj\Debug\IntSol.Applications.CRMProcessing.csprojAssemblyReference.cache
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Applications.CRMProcessing\obj\Debug\IntSol.Applications.CRMProcessing.csproj.CoreCompileInputs.cache
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Applications.CRMProcessing\obj\Debug\IntSol.Applications.CRMProcessing.csproj.CopyComplete
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Applications.CRMProcessing\obj\Debug\IntSol.Applications.CRMProcessing.exe
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Applications.CRMProcessing\obj\Debug\IntSol.Applications.CRMProcessing.pdb

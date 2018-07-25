@@ -1,0 +1,9 @@
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Services.Interfaces\bin\Debug\IntSol.Libraries.Services.Interfaces.dll
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Services.Interfaces\bin\Debug\IntSol.Libraries.Services.Interfaces.pdb
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Services.Interfaces\bin\Debug\IntSol.Libraries.Models.dll
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Services.Interfaces\bin\Debug\IntSol.Libraries.Models.pdb
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Services.Interfaces\obj\Debug\IntSol.Libraries.Services.Interfaces.csprojAssemblyReference.cache
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Services.Interfaces\obj\Debug\IntSol.Libraries.Services.Interfaces.csproj.CoreCompileInputs.cache
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Services.Interfaces\obj\Debug\IntSol.Libraries.Services.Interfaces.csproj.CopyComplete
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Services.Interfaces\obj\Debug\IntSol.Libraries.Services.Interfaces.dll
+C:\00 WPF\Demonstrations\CSharpAdvFeaturesPart1Solution\IntSol.Libraries.Services.Interfaces\obj\Debug\IntSol.Libraries.Services.Interfaces.pdb
