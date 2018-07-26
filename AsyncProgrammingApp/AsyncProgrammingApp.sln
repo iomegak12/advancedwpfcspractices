@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncProgrammingApp", "AsyncProgrammingApp\AsyncProgrammingApp.csproj", "{068D28FE-49C4-4012-8510-32ED3D5F1F96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{068D28FE-49C4-4012-8510-32ED3D5F1F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068D28FE-49C4-4012-8510-32ED3D5F1F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068D28FE-49C4-4012-8510-32ED3D5F1F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068D28FE-49C4-4012-8510-32ED3D5F1F96}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E77113E-C7F7-416D-9C8C-95CFDBEE4F8D}
+	EndGlobalSection
+EndGlobal
