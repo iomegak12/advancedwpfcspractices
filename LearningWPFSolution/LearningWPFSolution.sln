@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View Components", "View Components", "{37CC842E-F408-4BD6-8D50-D49BF61EA6D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{DA81CF48-1642-4BFC-8535-E9460FB1A0DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{3D6A536B-1D8E-4B6A-9483-435A0BF6D7C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{D2257242-25EA-42C7-895A-9BC023C6D08F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Implementations", "Implementations", "{93870270-0598-40AA-8E00-02B4B659A04A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{5A8F9761-8300-4759-BC78-8712E4D8C293}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{1993BA93-7472-4CC9-9776-6C98020BDF7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfessionalUI", "ProfessionalUI\ProfessionalUI.csproj", "{54764825-CEB9-4ACB-985E-AE992059462C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alstom.Libraries.UI.Views", "Alstom.Libraries.UI.Views\Alstom.Libraries.UI.Views.csproj", "{384701FC-A213-4BA8-BAF5-283A5BDE469F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alstom.Libraries.UI.ViewComponents", "Alstom.Libraries.UI.ViewComponents\Alstom.Libraries.UI.ViewComponents.csproj", "{943637DD-C5F0-43E9-AA34-292535EE297D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alstom.Libraries.Models", "Alstom.Libraries.Models\Alstom.Libraries.Models.csproj", "{EE6A20BB-7CF8-4701-BF1F-76DAF8C21F8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alstom.Libraries.Services.Interfaces", "Alstom.Libraries.Services.Interfaces\Alstom.Libraries.Services.Interfaces.csproj", "{CEC5CF3E-D867-4CD5-9CD5-4FC64BFDE3AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alstom.Libraries.Services.Impl", "Alstom.Libraries.Services.Impl\Alstom.Libraries.Services.Impl.csproj", "{60DF26BF-C7E7-4A7B-86B0-477912FCD6A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54764825-CEB9-4ACB-985E-AE992059462C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54764825-CEB9-4ACB-985E-AE992059462C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54764825-CEB9-4ACB-985E-AE992059462C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54764825-CEB9-4ACB-985E-AE992059462C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384701FC-A213-4BA8-BAF5-283A5BDE469F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384701FC-A213-4BA8-BAF5-283A5BDE469F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384701FC-A213-4BA8-BAF5-283A5BDE469F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384701FC-A213-4BA8-BAF5-283A5BDE469F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943637DD-C5F0-43E9-AA34-292535EE297D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943637DD-C5F0-43E9-AA34-292535EE297D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943637DD-C5F0-43E9-AA34-292535EE297D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943637DD-C5F0-43E9-AA34-292535EE297D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE6A20BB-7CF8-4701-BF1F-76DAF8C21F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6A20BB-7CF8-4701-BF1F-76DAF8C21F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6A20BB-7CF8-4701-BF1F-76DAF8C21F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6A20BB-7CF8-4701-BF1F-76DAF8C21F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEC5CF3E-D867-4CD5-9CD5-4FC64BFDE3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC5CF3E-D867-4CD5-9CD5-4FC64BFDE3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC5CF3E-D867-4CD5-9CD5-4FC64BFDE3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC5CF3E-D867-4CD5-9CD5-4FC64BFDE3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60DF26BF-C7E7-4A7B-86B0-477912FCD6A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DF26BF-C7E7-4A7B-86B0-477912FCD6A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DF26BF-C7E7-4A7B-86B0-477912FCD6A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DF26BF-C7E7-4A7B-86B0-477912FCD6A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2257242-25EA-42C7-895A-9BC023C6D08F} = {3D6A536B-1D8E-4B6A-9483-435A0BF6D7C5}
+		{93870270-0598-40AA-8E00-02B4B659A04A} = {3D6A536B-1D8E-4B6A-9483-435A0BF6D7C5}
+		{54764825-CEB9-4ACB-985E-AE992059462C} = {DA81CF48-1642-4BFC-8535-E9460FB1A0DB}
+		{384701FC-A213-4BA8-BAF5-283A5BDE469F} = {1993BA93-7472-4CC9-9776-6C98020BDF7F}
+		{943637DD-C5F0-43E9-AA34-292535EE297D} = {37CC842E-F408-4BD6-8D50-D49BF61EA6D1}
+		{EE6A20BB-7CF8-4701-BF1F-76DAF8C21F8B} = {5A8F9761-8300-4759-BC78-8712E4D8C293}
+		{CEC5CF3E-D867-4CD5-9CD5-4FC64BFDE3AE} = {D2257242-25EA-42C7-895A-9BC023C6D08F}
+		{60DF26BF-C7E7-4A7B-86B0-477912FCD6A0} = {93870270-0598-40AA-8E00-02B4B659A04A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {928F6F91-2978-45CB-9C73-E796EBEE0C87}
+	EndGlobalSection
+EndGlobal
