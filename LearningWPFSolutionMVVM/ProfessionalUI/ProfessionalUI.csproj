@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{54764825-CEB9-4ACB-985E-AE992059462C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProfessionalUI</RootNamespace>
+    <AssemblyName>ProfessionalUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Alstom.Libraries.Models\Alstom.Libraries.Models.csproj">
+      <Project>{ee6a20bb-7cf8-4701-bf1f-76daf8c21f8b}</Project>
+      <Name>Alstom.Libraries.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Alstom.Libraries.Services.Impl\Alstom.Libraries.Services.Impl.csproj">
+      <Project>{60df26bf-c7e7-4a7b-86b0-477912fcd6a0}</Project>
+      <Name>Alstom.Libraries.Services.Impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Alstom.Libraries.Services.Interfaces\Alstom.Libraries.Services.Interfaces.csproj">
+      <Project>{cec5cf3e-d867-4cd5-9cd5-4fc64bfde3ae}</Project>
+      <Name>Alstom.Libraries.Services.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Alstom.Libraries.UI.Framework\Alstom.Libraries.UI.Framework.csproj">
+      <Project>{8402572b-7cc5-4a08-9ecc-3649b4207ca3}</Project>
+      <Name>Alstom.Libraries.UI.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Alstom.Libraries.UI.ViewComponents\Alstom.Libraries.UI.ViewComponents.csproj">
+      <Project>{943637dd-c5f0-43e9-aa34-292535ee297d}</Project>
+      <Name>Alstom.Libraries.UI.ViewComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Alstom.Libraries.UI.ViewModels.Impl\Alstom.Libraries.UI.ViewModels.Impl.csproj">
+      <Project>{7c46af8b-8c24-455b-a697-dfa02d7299da}</Project>
+      <Name>Alstom.Libraries.UI.ViewModels.Impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Alstom.Libraries.UI.ViewModels.Interfaces\Alstom.Libraries.UI.ViewModels.Interfaces.csproj">
+      <Project>{58058bf4-e40d-417c-821b-55562a0c36f2}</Project>
+      <Name>Alstom.Libraries.UI.ViewModels.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Alstom.Libraries.UI.Views\Alstom.Libraries.UI.Views.csproj">
+      <Project>{384701fc-a213-4ba8-baf5-283a5bde469f}</Project>
+      <Name>Alstom.Libraries.UI.Views</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
