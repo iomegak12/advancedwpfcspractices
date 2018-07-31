@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EEBF4BC0-71CC-4EB2-BF21-11CC008BF33A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Alstom.Libraries.UI.ViewModels.Impl</RootNamespace>
+    <AssemblyName>Alstom.Libraries.UI.ViewModels.Impl</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Alstom.Libraries.Business.Interfaces\Alstom.Libraries.Business.Interfaces.csproj">
+      <Project>{E1684627-24C3-40FD-8D32-658B49E98D47}</Project>
+      <Name>Alstom.Libraries.Business.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Alstom.Libraries.Models\Alstom.Libraries.Models.csproj">
+      <Project>{6C297E78-CEE4-49AC-9C99-2E44A74F9428}</Project>
+      <Name>Alstom.Libraries.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Alstom.Libraries.UI.Framework\Alstom.Libraries.UI.Framework.csproj">
+      <Project>{17AD5783-7691-4F0A-936E-546FC6259F93}</Project>
+      <Name>Alstom.Libraries.UI.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Alstom.Libraries.UI.Services.Interfaces\Alstom.Libraries.UI.Services.Interfaces.csproj">
+      <Project>{EAF5C177-B981-4857-9EF3-6B722DDA9EFB}</Project>
+      <Name>Alstom.Libraries.UI.Services.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Alstom.Libraries.UI.ViewModels.Interfaces\Alstom.Libraries.UI.ViewModels.Interfaces.csproj">
+      <Project>{D84137CF-7812-441C-8BBE-DBB30B5D55C2}</Project>
+      <Name>Alstom.Libraries.UI.ViewModels.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

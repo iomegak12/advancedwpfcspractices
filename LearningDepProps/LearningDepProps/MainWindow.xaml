@@ -1,0 +1,22 @@
+﻿<Window x:Class="LearningDepProps.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LearningDepProps"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="541.798" Width="845.426">
+    <Window.Resources>
+        <local:SliderValueToColorConverter x:Key="SliderValueToColorConverter"/>
+    </Window.Resources>
+    <Grid>
+        <TextBox Name="txtCurrentUnits" HorizontalAlignment="Left" Height="59" Margin="52,42,0,0" TextWrapping="Wrap" 
+                 VerticalAlignment="Top" Width="730" 
+                 Text="{Binding Value, ElementName=slTotalUnits, Mode=TwoWay, StringFormat=\{0:C\}, UpdateSourceTrigger=PropertyChanged}"/>
+        <Slider Name="slTotalUnits" HorizontalAlignment="Left" Margin="52,127,0,0" 
+                Minimum="1" Maximum="100"
+                VerticalAlignment="Top" Height="31" Width="730"/>
+        <Rectangle Fill="{Binding Value, Converter={StaticResource SliderValueToColorConverter}, ElementName=slTotalUnits}" HorizontalAlignment="Left" Height="141" Margin="156,194,0,0" Stroke="Black" VerticalAlignment="Top" Width="168"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,77 @@
+﻿<Window
+  x:Class="RichContent.Window1"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  Title="RichContent">
+  <Canvas>
+
+	 <Path Name="MyPath" 
+		Width="800" Height="800" 
+		StrokeThickness="20" StrokeDashArray="0.5,2" 
+		StrokeDashCap="Round" >
+
+		<Path.Data>
+		  <CombinedGeometry GeometryCombineMode="Union">
+			 <CombinedGeometry.Geometry1>
+				<EllipseGeometry x:Name="MyEllipseGeometry" 
+				  Center="200,200" RadiusX="150" RadiusY="150" />
+			 </CombinedGeometry.Geometry1>
+			 <CombinedGeometry.Geometry2>
+				<EllipseGeometry Center="400,200" RadiusX="150" RadiusY="150" />
+			 </CombinedGeometry.Geometry2>
+		  </CombinedGeometry>
+		</Path.Data>
+
+		<Path.Fill>
+		  <VisualBrush>
+			 <VisualBrush.Visual>
+				<TextBlock Text="Hello World" FontWeight="Bold" Padding="10">
+				  <TextBlock.Background>
+					 <LinearGradientBrush>
+						  <GradientStop Offset="0" Color="Yellow" />
+						  <GradientStop Offset="1" Color="Red" />
+					 </LinearGradientBrush>
+				  </TextBlock.Background>
+				</TextBlock>
+			 </VisualBrush.Visual>
+		  </VisualBrush>
+		</Path.Fill>
+
+		<Path.Stroke>
+		  <LinearGradientBrush>
+				<GradientStop Offset="0" Color="Black" />
+				<GradientStop Offset="1" Color="White" />
+		  </LinearGradientBrush>
+		</Path.Stroke>
+
+		<Path.Triggers>
+		  <EventTrigger RoutedEvent="Path.Loaded">
+			 <EventTrigger.Actions>
+				<BeginStoryboard>
+				  <Storyboard>
+					 <DoubleAnimation 
+						Storyboard.TargetName="MyPath"
+						Storyboard.TargetProperty="StrokeDashOffset"
+						To="20" Duration="0:0:10"
+				    RepeatBehavior="Forever" />
+				  </Storyboard>
+				</BeginStoryboard>
+
+				<BeginStoryboard>
+				  <Storyboard>
+					 <PointAnimation 
+						Storyboard.TargetName="MyEllipseGeometry"	
+						Storyboard.TargetProperty="Center"
+						From="150,100" To="650,200" Duration="0:0:3" 
+						RepeatBehavior="Forever" AutoReverse="True"/>
+				  </Storyboard>
+				</BeginStoryboard>
+
+			 </EventTrigger.Actions>
+		  </EventTrigger>
+		</Path.Triggers>
+
+	 </Path>
+
+  </Canvas>
+</Window>

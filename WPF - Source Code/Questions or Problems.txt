@@ -1,0 +1,7 @@
+Questions?  Problems?
+
+Email me directly at anathan@microsoft.com.  I'll try to address them in a timely fashion.
+I'm also committed to providing updates and enhancements to this source code at http://www.adamnathan.net/wpf.
+
+Thank you!
+Adam Nathan

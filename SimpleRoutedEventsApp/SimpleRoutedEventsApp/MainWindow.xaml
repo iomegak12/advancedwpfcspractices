@@ -1,0 +1,17 @@
+﻿<Window x:Class="SimpleRoutedEventsApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleRoutedEventsApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        PreviewMouseDown="Window_MouseDown"
+        TextBoxBase.TextChanged="HandleTextChangedAtWindow">
+    <Grid PreviewMouseDown="Grid_MouseDown" TextBoxBase.TextChanged="HandleTextChanged">
+        <TextBox HorizontalAlignment="Left" Height="36" Margin="123,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="493"/>
+        <TextBox HorizontalAlignment="Left" Height="36" Margin="123,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="493"/>
+        <TextBox HorizontalAlignment="Left" Height="36" Margin="123,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="493"/>
+        <Button PreviewMouseDown="Button_MouseDown" Content="Button" HorizontalAlignment="Left" Margin="644,244,0,0" VerticalAlignment="Top" Width="94" Height="99"/>
+    </Grid>
+</Window>

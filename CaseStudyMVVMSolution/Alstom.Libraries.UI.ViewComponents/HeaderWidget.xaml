@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="Alstom.Libraries.UI.ViewComponents.HeaderWidget"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Alstom.Libraries.UI.ViewComponents"
+             mc:Ignorable="d" 
+             Background="White"
+             xmlns:ext="clr-namespace:Alstom.Libraries.UI.Extensibility;assembly=Alstom.Libraries.UI.Extensibility"
+             d:DesignHeight="58" d:DesignWidth="883">
+    <Grid>
+        <Label Content="Alstom Transport India Pvt. Ltd.,"
+               FontSize="26" FontWeight="ExtraLight"
+               VerticalContentAlignment="Center"
+               HorizontalContentAlignment="Center"
+               HorizontalAlignment="Left" VerticalAlignment="Top" Height="58" Width="388"/>
+        <Label Content="Close" HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center"
+               HorizontalAlignment="Left" 
+               FontWeight="ExtraLight" Foreground="Blue"
+               Cursor="Hand"
+               ext:AttachedPropertiesProvider.Command="{Binding Close}"
+               Margin="798,10,0,0" VerticalAlignment="Top" Width="75" Height="38"/>
+        <Label Content="Help" 
+               HorizontalContentAlignment="Center"
+               VerticalContentAlignment="Center"
+               FontWeight="ExtraLight" Foreground="Blue"
+               Cursor="Hand"
+               ext:AttachedPropertiesProvider.Command="{Binding Help}"
+               ext:AttachedPropertiesProvider.CommandParameter="HelpView"
+               HorizontalAlignment="Left" Margin="718,10,0,0" VerticalAlignment="Top" Width="75" Height="38"/>
+
+    </Grid>
+</UserControl>

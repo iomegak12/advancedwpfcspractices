@@ -1,0 +1,54 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IntermediateCmdWpfApp"
+        xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit" x:Class="IntermediateCmdWpfApp.MainWindow"
+        mc:Ignorable="d"
+        xmlns:cmdlib="clr-namespace:CommandsLibrary;assembly=CommandsLibrary"
+        Title="Intermediate Commands Solution" Height="495.2" Width="800">
+
+    <Window.Resources>
+        <cmdlib:Customers x:Key="customers" />
+        <cmdlib:Orders x:Key="orders" />
+        <cmdlib:LoadCustomersCommand x:Key="loadCustomers" />
+        <cmdlib:LoadOrdersCommand x:Key="loadOrders" />
+        <cmdlib:CustomerInfoMVConverter x:Key="customerInfoMVConverter" />
+    </Window.Resources>
+
+    <Grid DataContext="{Binding SelectedItem, ElementName=comboBox}">
+        <Button Content="Load Data" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="119" Command="{Binding Mode=OneWay, Source={StaticResource loadCustomers}}" CommandParameter="{Binding Mode=OneWay, Source={StaticResource customers}}"/>
+        <ComboBox cmdlib:CommandPropertiesProvider.Command="{Binding Source={StaticResource loadOrders}}"
+                  x:Name="comboBox" DisplayMemberPath="Name" HorizontalAlignment="Left" Margin="134,10,0,0" VerticalAlignment="Top" Width="171" ItemsSource="{Binding Mode=OneWay, Source={StaticResource customers}}">
+            <cmdlib:CommandPropertiesProvider.CommandParameter>
+                <MultiBinding Converter="{StaticResource customerInfoMVConverter}">
+                    <Binding ElementName="comboBox" Path="SelectedItem" />
+                    <Binding Source="{StaticResource orders}" />
+                </MultiBinding>
+            </cmdlib:CommandPropertiesProvider.CommandParameter>
+        </ComboBox>
+        
+        <Grid HorizontalAlignment="Left" Height="423" Margin="10,35,0,0" VerticalAlignment="Top" Width="775">
+            <Image HorizontalAlignment="Left" Height="209" Margin="10,10,0,0" VerticalAlignment="Top" Width="184" Source="{Binding PhotoUrl}" Stretch="Fill"/>
+            <Label HorizontalContentAlignment="Right" Content="Customer Id:" HorizontalAlignment="Left" Margin="199,10,0,0" VerticalAlignment="Top" Width="148"/>
+            <TextBox HorizontalAlignment="Left" Height="26" Margin="352,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233" Text="{Binding Id}"/>
+            <Label HorizontalContentAlignment="Right" Content="Contact Name:" HorizontalAlignment="Left" Margin="199,41,0,0" VerticalAlignment="Top" Width="148"/>
+            <TextBox HorizontalAlignment="Left" Height="26" Margin="352,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="413" Text="{Binding Name}"/>
+            <Label HorizontalContentAlignment="Right" Content="Business Address:" HorizontalAlignment="Left" Margin="199,72,0,0" VerticalAlignment="Top" Width="148"/>
+            <TextBox HorizontalAlignment="Left" Height="62" Margin="352,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="413" Text="{Binding Address}"/>
+            <Label HorizontalContentAlignment="Right" Content="Credit:" HorizontalAlignment="Left" Margin="199,139,0,0" VerticalAlignment="Top" Width="148"/>
+            <TextBox HorizontalAlignment="Left" Height="26" Margin="352,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="413" Text="{Binding Credit, StringFormat=\{0:C\}}"/>
+            <DataGrid AutoGenerateColumns="True" ItemsSource="{Binding Source={StaticResource orders}}" HorizontalAlignment="Left" Height="243" Margin="199,170,0,0" VerticalAlignment="Top" Width="258"/>
+            <CheckBox Content="Is Active?" HorizontalAlignment="Left" Margin="650,12,0,0" VerticalAlignment="Top" Width="115" IsChecked="{Binding Status}"/>
+            <chartingToolkit:Chart Title="Order Performance Analysis" HorizontalAlignment="Left" Margin="463,170,0,0" VerticalAlignment="Top" Height="243" Width="302">
+                <chartingToolkit:ColumnSeries HorizontalAlignment="Left" 
+                                           ItemsSource="{Binding Source={StaticResource orders}}" 
+                                           DependentValueBinding="{Binding Amount}"
+                                           IndependentValueBinding="{Binding OrderId}"
+                                           Height="126" Margin="0" VerticalAlignment="Top" Width="279.6"/>
+            </chartingToolkit:Chart>
+        </Grid>
+
+    </Grid>
+</Window>
